@@ -1,0 +1,7 @@
+total_bill = float(input("what was the total bill\n"))
+tip_percentage = float(input("how much tip would you like to give 10%,12% or 15%"))
+print(type(total_bill))
+print(type(tip_percentage))
+total_people= float(input("how many people would you like to spit bill with"))
+print(type(total_people))
+print(f"Each person should pay a bill of : {(total_bill*tip_percentage)/total_people}")
